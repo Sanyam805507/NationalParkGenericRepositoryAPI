@@ -6,7 +6,7 @@ using NationalParkGenericRepositoryAPI.Repository.IRepository;
 
 namespace NationalParkGenericRepositoryAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/nationalPark")]
     [ApiController]
     public class NationalParkController : ControllerBase
     {

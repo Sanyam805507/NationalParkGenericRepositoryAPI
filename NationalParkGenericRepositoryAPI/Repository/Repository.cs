@@ -50,7 +50,7 @@ namespace NationalParkGenericRepositoryAPI.Repository
 
         public bool Save()
         {
-            return _db.SaveChanges() == 1 ? true : false;
+            return _db.SaveChanges() > 0;
         }
     }
 }

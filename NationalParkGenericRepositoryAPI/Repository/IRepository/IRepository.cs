@@ -2,6 +2,7 @@
 {
         public interface IRepository<T> where T : class
         {
+
         ICollection<T> GetAll();
         T Get(int id);
         bool Exists(int id);
@@ -9,7 +10,9 @@
         bool Update(T entity);
         bool Delete(T entity);
         bool Save();
-    }
+
+
+        }
 
 
 

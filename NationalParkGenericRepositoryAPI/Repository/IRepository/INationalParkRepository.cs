@@ -2,7 +2,8 @@
 
 namespace NationalParkGenericRepositoryAPI.Repository.IRepository
 {
-    public interface INationalParkRepository:IRepository<NationalPark>
+    public interface INationalParkRepository : IRepository<NationalPark>
     {
+      
     }
 }

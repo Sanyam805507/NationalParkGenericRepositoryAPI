@@ -1,4 +1,5 @@
-﻿using NationalParkGenericRepositoryAPI.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using NationalParkGenericRepositoryAPI.Data;
 using NationalParkGenericRepositoryAPI.Models;
 using NationalParkGenericRepositoryAPI.Repository.IRepository;
 
@@ -11,5 +12,9 @@ namespace NationalParkGenericRepositoryAPI.Repository
         {
             _context = context;
         }
+        //public ICollection<Trail> GetTrails()
+        //{
+        //    return _context.Trails.Include(t => t.NationalPark).ToList();
+        //}
     }
 }
